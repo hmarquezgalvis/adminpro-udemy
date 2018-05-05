@@ -9,10 +9,11 @@ import { PAGES_ROUTING } from './pages.routes';
 import { SharedModule } from '../shared/shared.module';
 
 // Componentes
+import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graphics1Component } from './graphics1/graphics1.component';
-import { PagesComponent } from './pages.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic-doughnut.component';
@@ -30,7 +31,8 @@ import { GraphicDoughnutComponent } from '../components/graphic-doughnut/graphic
     ProgressComponent,
     Graphics1Component,
     IncrementadorComponent,
-    GraphicDoughnutComponent
+    GraphicDoughnutComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
